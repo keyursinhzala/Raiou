@@ -1,0 +1,56 @@
+@media only screen and ( max-width:620px){
+  
+    .upar-portion{
+        display: none;
+    }
+    .nav-container{
+        display:none;
+    }
+
+    .first-section{
+        width: 100%;
+        min-height: 200vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+ 
+
+    }
+    .text-section{
+        width: 100%;
+        min-height: 100vh;
+        top: -900px;
+        border: 5px solid red;
+     
+     
+    }
+    
+    .second-section{
+        min-height: 120vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-section{
+        min-height: 120vh;
+        width: 100%;
+      
+    } 
+    
+    .right-section{
+        min-height: 120vh;
+        width: 100%;
+      
+    }
+    .button-squre{
+        width: auto;
+    }
+    .button-squre button{
+        width: auto;
+        padding: 10px;
+    }
+    .card-section
+    
+}
+
